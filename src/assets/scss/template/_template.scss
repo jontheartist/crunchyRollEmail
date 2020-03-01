@@ -1,0 +1,74 @@
+// These are the styles to make some of the templates look extra nice.
+// Feel free to remove these styles for production!
+// Body Styles 
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body,
+html,
+.body {
+    margin-bottom: 10px;
+    .blackbg {
+        background-color: #000;
+    }
+    h1 {
+        text-align: center;
+        font-weight: 700;
+        font-size: 23px;
+    }
+    p {
+        font-family: 'Lato', Verdana, Ariel, sans-serif;
+        color: #555;
+        line-height: 140%;
+        text-align: center;
+    }
+    .orgbtn {
+        background-color: #f47521;
+        padding: 5px 10px 5px 10px;
+        border-radius: 3px;
+        color: #fff;
+        font-size: 20px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+    .aIcon {
+        height: 85px;
+        width: 85px;
+    }
+    .iLeft {
+        float: right;
+    }
+    .iMid {
+        margin: 0 auto;
+    }
+    .iRight {
+        float: left;
+    }
+    .btm-text {
+        color: #8b8b8b;
+        text-align: center;
+    }
+    .right-side-border {
+        border-right: 1px solid #8b8b8b;
+        text-align: right;
+    }
+    .left-side-border {
+        border-left: 1px solid #8b8b8b;
+        text-align: left;
+    }
+    .btm-mid-text {
+        text-align: center;
+        padding: 0;
+        // width: 50%;
+    }
+    .mid-box {
+        width: 30%;
+        padding: 0;
+        margin: 0 !important;
+    }
+    // .line1 {
+    //     border: 1px solid #8b8b8b;
+    // }
+}
